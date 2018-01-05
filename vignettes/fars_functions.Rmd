@@ -14,7 +14,6 @@ require("knitr")
 require("dplyr")
 require("maps")
 require("graphics")
-opts_knit$set(root.dir = "C:/Users/cbrown/Desktop/R_Projects/Course3Assignment/R/")
 opts_chunk$set(warning=F,message=F)
 ```
 
@@ -37,19 +36,17 @@ Briefly, the functions in the FARS functions package are:
 Typically, one wants to use **fars_read_years** to read data, **fars_summarize_years** to read and summarize data, and **fars_map_state** to read and visualize data.
 
 ## Examples of use
-```{r echo=FALSE}
-source("fars_functions.R")
-```
+
 Read in a few years worth of data.
-```{r}
+```{r eval=FALSE}
 df <- fars_read_years(c(2013,2014,2015))
 ```
 We can read and summarize data in one or more years:
-```{r}
+```{r eval=FALSE}
 df <- fars_summarize_years(2013)
 print(df)
 ```
 We can also read and visualize data form a given state in a given year.
-```{r}
+```{r eval=FALSE}
 fars_map_state(22,2013)
 ```
