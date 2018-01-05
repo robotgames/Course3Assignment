@@ -20,6 +20,6 @@ Reads data with year and month components, returns a count
 }
 \examples{
 
-fars_summarize_years(c("1993",1995,"2001",2016))
+#fars_summarize_years(c("1993",1995,"2001",2016))
 
 }

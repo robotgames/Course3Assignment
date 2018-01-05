@@ -20,6 +20,6 @@ Reads data from a csv file and returns a data frame tbl object.
 }
 \examples{
 
-fars_read(my_file)
+#fars_read(my_file)
 
 }

@@ -24,7 +24,7 @@ Read data from a file.  Plots accidents in a given state
 @seealso \code{\link{make_filename}} \code{\link{fars_read}}
   @examples
 
-fars_map_state(23,1994)
+#fars_map_state(23,1994)
 
 @export
 }

@@ -18,8 +18,8 @@ Converts a vector years to a list of filenames using the make_filename
 }
 \examples{
 
-fars_read_years(c(1993,1995,2001,2016))
+#fars_read_years(c(1993,1995,2001,2016))
 
-fars_read_years(c("1993",1995,"2001",2016))
+#fars_read_years(c("1993",1995,"2001",2016))
 
 }
